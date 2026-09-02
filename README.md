@@ -16,7 +16,7 @@ Conceito independente de website institucional para Liliana Pereira, Solicitador
 ## Desenvolvimento
 
 ```bash
-npm run install:ci
+npm install
 npm run dev
 ```
 
@@ -25,8 +25,9 @@ npm run dev
 ```bash
 npm run lint
 npm test
+npm run build
 ```
 
 ## Publicação
 
-O projeto preserva o fluxo Vinext/Sites e inclui também `npm run vercel-build` para publicação futura na Vercel. Antes de uma publicação oficial, confirmar todo o conteúdo com a profissional e rever `PROJECT_NOTES.md`.
+O projeto está preparado para publicação direta na Vercel. Antes de uma publicação oficial, confirmar todo o conteúdo com a profissional e rever `PROJECT_NOTES.md`.
